@@ -23,6 +23,13 @@ const Button = styled.button`
   color: #fff;
   font-size: 20px;
   border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: #fff;
+    color: #0066ff;
+  }
 `;
 
 export const Home: FC = () => {

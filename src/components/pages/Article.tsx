@@ -7,10 +7,12 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 30px 20px;
-  width: 800px;
-  margin: 0 auto;
+  max-width: 800px;
+  margin: 30px auto;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 `;
 
 export const Article = () => {
